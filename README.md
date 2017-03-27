@@ -91,9 +91,9 @@ SELECT * FROM cats WHERE owner_id = 2;
 You should see just one cat returned to us, the one that belongs to Sophie, our second owner:
 
 ```sql
-id               name             age         owner_id    breed        
----------------  ---------------  ----------  ----------  -------------
-3                Nona             4           2           Tortoiseshell
+id               name             age         breed          owner_id  
+---------------  ---------------  ----------  -------------  ----------
+3                Nona             4           Tortoiseshell  2         
 ```
 
  
